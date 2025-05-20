@@ -85,7 +85,6 @@ export default function AboutScreen() {
           </TouchableOpacity>
         </Animated.View>
 
-
         <SectionHeader title="Implementation" />
 
         <Text style={styles.paragraph}>
@@ -150,19 +149,22 @@ export default function MyScreen() {
           </TouchableOpacity>
         </View>
 
-        <SectionHeader title="Credits" />
+        <SectionHeader title="Source" />
 
         <Text style={styles.paragraph}>
-          The Saudi Riyal Font was created by Emran Al-Haddad. This demo
-          application was created to provide an example of how to implement it in React Native
-          applications.
+          This demo application was created to provide an example of how to
+          implement it in React Native applications.
         </Text>
 
         <TouchableOpacity
           style={styles.creditButton}
-          onPress={() => Linking.openURL('https://github.com/emran-alhaddad')}
+          onPress={() =>
+            Linking.openURL(
+              'https://github.com/teckmk-spire/saudi_riyal_symbol_rn'
+            )
+          }
         >
-          <Text style={styles.creditButtonText}>Visit Creator's GitHub</Text>
+          <Text style={styles.creditButtonText}>Visit Source on GitHub</Text>
           <Github size={16} color="#333" />
         </TouchableOpacity>
       </Animated.ScrollView>
