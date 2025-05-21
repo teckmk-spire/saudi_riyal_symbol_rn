@@ -2,12 +2,9 @@
 
 ## 📦 Requirements
 
-- Node.js >= 18
-- [Expo CLI](https://docs.expo.dev/get-started/installation/):
-
-  ```bash
-  npm install -g expo-cli
-  ```
+- Node.js `>=18`
+- Expo Go `~2.33.20`
+- Expo SDK `53`
 
 ## ▶️ Getting Started
 
@@ -36,7 +33,7 @@
   npx expo start --clear
   ```
 
-- **Install compatible packages:**
+- **Install expo compatible packages:**
 
   ```bash
   npx expo install <package-name>
